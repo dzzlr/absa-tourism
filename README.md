@@ -29,27 +29,27 @@ $ curl -d '{"text":"Barusan dari situ dan pas ke toiletnya ampun kotor banget,da
         "text": "Barusan dari situ dan pas ke toiletnya ampun kotor banget,dan bau pesing,tidak terawat padahal berbayar",
         "result": [
             {
-                'label': 'aksesibilitas',
-                'score': {
-                    'neutral': 0.997,
-                    'positive': 0.001,
-                    'negative': 0.002
+                "label": "aksesibilitas",
+                "score": {
+                    "neutral": 0.997,
+                    "positive": 0.001,
+                    "negative": 0.002
                 }
             },
             {
-                'label': 'fasilitas',
-                'score': {
-                    'neutral': 0.016,
-                    'positive': 0.013,
-                    'negative': 0.971
+                "label": "fasilitas",
+                "score": {
+                    "neutral": 0.016,
+                    "positive": 0.013,
+                    "negative": 0.971
                 }
             },
             {
-                'label': 'aktivitas',
-                'score': {
-                    'neutral': 0.549,
-                    'positive': 0.098,
-                    'negative': 0.353
+                "label": "aktivitas",
+                "score": {
+                    "neutral": 0.549,
+                    "positive": 0.098,
+                    "negative": 0.353
                 }
             }
         ],
