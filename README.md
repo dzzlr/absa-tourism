@@ -1,7 +1,7 @@
 # Aspect-Based Sentiment Analysis of Tourist Review
 
 ## Overview
-This a repository for modelling and deploying NLP Model especially on spect-Based Sentiment Analysis of Tourist Review. The NLP Model provide 3 aspects of tourist review that are `['aksesibiltas', 'fasilitas', 'aktivitas']`. Model that I used is XGBoost with TF-IDF.
+This a repository for modelling and deploying NLP Model especially on Aspect-Based Sentiment Analysis of Tourist Review. The NLP Model provide 3 aspects of tourist review that are `['aksesibiltas', 'fasilitas', 'aktivitas']`. Model that I used is XGBoost with TF-IDF.
 
 ## Requirements
 - nltk 3.7
