@@ -4,7 +4,7 @@
 This a repository for modelling and deploying NLP Model especially on Aspect-Based Sentiment Analysis of Tourist Review. The NLP Model provide 3 aspects of tourist review that are `['aksesibiltas', 'fasilitas', 'aktivitas']`. Model that I used is XGBoost with TF-IDF.
 
 ## Model
-- XGBoost Model was created by (alfianmf)[https://github.com/alfianmf]
+- XGBoost Model was created by [alfianmf](https://github.com/alfianmf)
 
 ## Requirements
 - nltk 3.7
