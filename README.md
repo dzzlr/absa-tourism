@@ -1,10 +1,15 @@
 # Aspect-Based Sentiment Analysis of Tourist Review
 
 ## Overview
-This a repository for modelling and deploying NLP Model especially on Aspect-Based Sentiment Analysis of Tourist Review. The NLP Model provide 3 aspects of tourist review that are `['accessibility', 'facility', 'activity']`. Model that I used is XGBoost with TF-IDF.
+This repository for modelling and deploying NLP Model especially on Text Classification. 
 
-## Model
+## NLP Tasks
+### Aspect-Based Sentiment Analysis of Tourist Reviews using XGBoost
+- The NLP Model provide 3 aspects of tourist review that are `['accessibility', 'facility', 'activity']`.
 - XGBoost Model was created by [alfianmf](https://github.com/alfianmf)
+
+### Text Classification of News Title using SVM
+- The NLP Model provide 7 categories of news title that are `['finance', 'food', 'health', 'inet', 'oto', 'sport', 'travel']`.
 
 ## Requirements
 - nltk 3.7
@@ -17,6 +22,7 @@ This a repository for modelling and deploying NLP Model especially on Aspect-Bas
 $ cd deployment
 $ uvicorn app:app --reload
 ```
+
 ## Hitting API
 ```bash
 $ curl -d '{"text":"Barusan dari situ dan pas ke toiletnya ampun kotor banget,dan bau pesing,tidak terawat padahal berbayar"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:8000/predict-tourist-review
