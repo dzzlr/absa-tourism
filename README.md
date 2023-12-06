@@ -6,10 +6,12 @@ This repository for modelling and deploying NLP Model especially on Text Classif
 ## NLP Tasks
 ### Aspect-Based Sentiment Analysis of Tourist Reviews using XGBoost
 - The NLP Model provide 3 aspects of tourist review that are `['accessibility', 'facility', 'activity']`.
+- The model has an accuracy 81%.
 - XGBoost Model was created by [alfianmf](https://github.com/alfianmf)
 
 ### Text Classification of News Title using SVM
 - The NLP Model provide 7 categories of news title that are `['finance', 'food', 'health', 'inet', 'oto', 'sport', 'travel']`.
+- The model has an accuracy 85%.
 
 ## Requirements
 - nltk 3.7
