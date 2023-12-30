@@ -2,6 +2,7 @@ import re
 import string
 
 import nltk
+# nltk.download('stopwords')
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize
 from itertools import chain

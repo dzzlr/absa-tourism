@@ -29,11 +29,11 @@ class Validator:
         self.messages.append(message)
     
     def getMessage(self):
-        if len(self.messages) != 0:
-            messages = {'code': 400, 'status': 'BAD_REQUEST', 'errors': self.messages}
-        else:
-            messages = {'code': 200, 'status': 'OK', 'text': self.getText()}
-        return messages
+        # if len(self.messages) != 0:
+        #     messages = {'code': 400, 'status': 'BAD_REQUEST', 'errors': self.messages}
+        # else:
+        #     messages = {'code': 200, 'status': 'OK', 'text': self.getText()}
+        return self.messages
 
 if __name__ == "__main__":
     validatedData = Validator("","required|min:2|max:100")
