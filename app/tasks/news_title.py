@@ -1,5 +1,5 @@
 import pickle
-from utils.preprocess import cleaning
+from ..utils.preprocess import cleaning
    
 class NewsTitleClassification:
     MODEL_PATH = 'model/indonesian-text-classification/model.pkl'

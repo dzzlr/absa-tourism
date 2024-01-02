@@ -1,5 +1,5 @@
 import pickle
-from utils.preprocess import cleaning
+from ..utils.preprocess import cleaning
 
 class ABSATourism:
     MODEL_PATH = 'model/absa-tourism/model.pkl'
